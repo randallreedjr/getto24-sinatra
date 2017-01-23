@@ -40,3 +40,7 @@ The math 24 Sinatra web application is hosted on Heroku. Pushes to the `master` 
 You can also force a deploy by running `git push heroku master`.
 
 The web app is accessible at http://www.getto24.com.
+
+## License
+
+The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
