@@ -1,2 +1,4 @@
 /.bundle/
+/log/
 math24-*.gem
+.byebug_history
