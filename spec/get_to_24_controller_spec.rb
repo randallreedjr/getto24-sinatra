@@ -1,8 +1,8 @@
 def app
-    Math24Controller
+    GetTo24Controller
 end
 
-describe Math24Controller, :type => :controller do
+describe GetTo24Controller, :type => :controller do
   describe 'get /' do
     it 'renders the home page' do
       get '/'
