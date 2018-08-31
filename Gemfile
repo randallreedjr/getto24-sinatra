@@ -1,5 +1,8 @@
 source "https://rubygems.org/"
 
+# Read ruby version from .ruby-version file
+ruby File.read('.ruby-version', mode: 'rb').chomp
+
 gem 'sinatra', '1.4.5'
 gem 'tilt', '1.4.1'
 gem 'rack', '~>1.5.4'
