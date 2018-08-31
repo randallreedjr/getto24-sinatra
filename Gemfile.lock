@@ -7,8 +7,8 @@ GEM
     eventmachine (1.2.1)
     math24 (2.0.1)
     newrelic_rpm (3.17.2.327)
-    rack (1.5.2)
-    rack-protection (1.5.0)
+    rack (1.5.5)
+    rack-protection (1.5.5)
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -42,8 +42,8 @@ DEPENDENCIES
   byebug
   math24 (~> 2.0.0)
   newrelic_rpm (~> 3.17.1)
-  rack (= 1.5.2)
-  rack-protection (= 1.5.0)
+  rack (~> 1.5.4)
+  rack-protection (~> 1.5.5)
   rack-test
   require_all (~> 1.4.0)
   rspec (= 3.0.0)
