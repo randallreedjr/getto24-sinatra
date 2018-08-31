@@ -14,6 +14,8 @@ gem 'thin', '~>1.7.0'
 group :development, :test do
   gem 'rspec', '3.0.0'
   gem 'rspec-core', '3.0.1'
+  # Needed by CircleCI for test results
+  gem 'rspec_junit_formatter'
   gem 'rack-test'
   gem 'byebug'
 end
