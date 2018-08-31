@@ -2,8 +2,8 @@ source "https://rubygems.org/"
 
 gem 'sinatra', '1.4.5'
 gem 'tilt', '1.4.1'
-gem 'rack', '1.5.2'
-gem 'rack-protection', '1.5.0'
+gem 'rack', '~>1.5.4'
+gem 'rack-protection', '~>1.5.5'
 gem 'math24', '~>2.0.0'
 gem 'require_all', '~>1.4.0'
 gem 'thin', '~>1.7.0'
