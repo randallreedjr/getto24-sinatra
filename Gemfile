@@ -9,7 +9,7 @@ gem 'rack', '~>1.5.4'
 gem 'rack-protection', '~>1.5.5'
 gem 'math24', '~>2.0.0'
 gem 'require_all', '~>1.4.0'
-gem 'thin', '~>1.7.0'
+gem 'thin', '~>1.8.0'
 
 group :development, :test do
   gem 'rspec', '3.0.0'
