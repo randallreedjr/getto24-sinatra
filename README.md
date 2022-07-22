@@ -35,6 +35,12 @@ exit
 
 ## Deploying Web App
 
+To launch the Web App locally, run:
+```
+web: bundle exec thin -R config.ru start
+```
+This should start the webserver at http://localhost:3000
+
 The math 24 Sinatra web application is hosted on Heroku. Pushes to the `master` branch will automatically deploy via Codeship CI.
 
 You can also force a deploy by running `git push heroku master`.
