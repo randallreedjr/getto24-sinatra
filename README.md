@@ -33,6 +33,12 @@ To quit, just type
 exit
 ```
 
+## Local development
+To install ruby 3.1.0, run the following command:
+```
+rvm install 3.1.0 --with-openssl-dir=/usr/local/opt/openssl@3
+```
+
 ## Deploying Web App
 
 To launch the Web App locally, run:
